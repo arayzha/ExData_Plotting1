@@ -93,7 +93,7 @@ The four plots that you will need to construct are shown below.
 
 ### Loading Data
 
-library(data.table)
+      library(data.table)
       options(digits = 10)
 
       pow = fread("household_power_consumption.txt",sep=';',stringsAsFactors = F,na.strings = '?')
